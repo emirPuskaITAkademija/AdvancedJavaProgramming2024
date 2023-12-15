@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="" />
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="MySQL baze&#10;&#10;- sve baze koje će nam trebati">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/TwoExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/DatabaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/PairDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,23 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Grupa 1/Desktop/Predavanja6",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grupa 1/IdeaProjects/AdvancedJavaProgramming2024/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ErrorMain">
-    <configuration name="ErrorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.one.error.ErrorMain" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DatabaseDemo">
+    <configuration name="DatabaseDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.two.collection.DatabaseDemo" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.one.error.*" />
+          <option name="PATTERN" value="ba.smoki.two.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.one.FlyTester" />
+    <configuration name="DatabaseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.two.collection.DatabaseDemo" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.one.*" />
+          <option name="PATTERN" value="ba.smoki.two.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.one.error.ErrorMain" />
+      <module name="AdvancedJavaProgramming2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.smoki.one.error.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.one.Main" />
+    <configuration name="TwoExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.two.TwoExecutor" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.one.*" />
+          <option name="PATTERN" value="ba.smoki.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,10 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatabaseDemo" />
+        <item itemvalue="Application.DatabaseDemo (1)" />
+        <item itemvalue="Application.TwoExecutor" />
         <item itemvalue="Application.ErrorMain" />
         <item itemvalue="Application.FunctionalMain" />
-        <item itemvalue="Application.FlyTester" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702399590280</updated>
     </task>
+    <task id="LOCAL-00001" summary="MySQL baze&#10;&#10;- sve baze koje će nam trebati">
+      <created>1702578463369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702578463369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,5 +162,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MySQL baze&#10;&#10;- sve baze koje će nam trebati" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL baze&#10;&#10;- sve baze koje će nam trebati" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/CustomerDao.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
