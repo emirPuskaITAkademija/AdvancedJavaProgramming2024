@@ -1,8 +1,10 @@
 package ba.smoki.two.generic;
 
+import java.io.Closeable;
+import java.io.IOException;
 import java.time.LocalDate;
 
-public class Person {
+public class Person implements Closeable {
 
     private String name;
     private String surname;
@@ -33,5 +35,10 @@ public class Person {
 
     public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
+    }
+
+    @Override
+    public void close() throws IOException {
+        System.out.println("Taman smo nešto skontali i dođosmo na AJP");
     }
 }

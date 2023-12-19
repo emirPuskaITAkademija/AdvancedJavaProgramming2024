@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="MySQL baze&#10;&#10;- sve baze koje će nam trebati">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/TwoExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/collection/DatabaseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/PairDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Person.java" afterDir="false" />
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/customer/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/shipper/Shipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/shipper/ShipperDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/two/generic/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/two/generic/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DatabaseDemo">
+  <component name="RunManager" selected="Application.Demo2">
     <configuration name="DatabaseDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.smoki.two.collection.DatabaseDemo" />
       <module name="AdvancedJavaProgramming2024" />
@@ -84,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.one.error.ErrorMain" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.three.Demo" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.one.error.*" />
+          <option name="PATTERN" value="ba.smoki.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.one.FunctionalMain" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.three.Demo2" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.one.*" />
+          <option name="PATTERN" value="ba.smoki.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.two.TwoExecutor" />
+    <configuration name="ShipperDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.three.shipper.ShipperDao" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.two.*" />
+          <option name="PATTERN" value="ba.smoki.three.shipper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.ShipperDao" />
         <item itemvalue="Application.DatabaseDemo" />
         <item itemvalue="Application.DatabaseDemo (1)" />
-        <item itemvalue="Application.TwoExecutor" />
-        <item itemvalue="Application.ErrorMain" />
-        <item itemvalue="Application.FunctionalMain" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702578463369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita">
+      <created>1702669249962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702669249962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MySQL baze&#10;&#10;- sve baze koje će nam trebati" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySQL baze&#10;&#10;- sve baze koje će nam trebati" />
+    <MESSAGE value="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
