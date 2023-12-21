@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/customer/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/product/ProductTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/shipper/Shipper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/shipper/ShipperDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/two/generic/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/two/generic/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/two/generic/Person.class" afterDir="false" />
-    </list>
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702669249962</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling">
+      <created>1703015080838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703015080838</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +167,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MySQL baze&#10;&#10;- sve baze koje će nam trebati" />
     <MESSAGE value="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita" />
+    <MESSAGE value="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
