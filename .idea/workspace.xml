@@ -170,7 +170,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="LONG_EDGES_VISIBLE" value="true" />
+            </State>
           </value>
         </entry>
       </map>
