@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
