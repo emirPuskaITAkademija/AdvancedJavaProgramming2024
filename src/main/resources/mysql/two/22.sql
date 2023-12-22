@@ -1,0 +1,6 @@
+-- ZAKLJUČAK : REGEXP
+-- $ kraj
+-- ^ početak
+-- | logical OR
+-- [abcd]
+--
