@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/CarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/Demonstracija.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/three/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/four/PersonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/four/PersonDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonDemo">
+  <component name="RunManager" selected="Application.Demonstracija">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.smoki.three.Demo" />
       <module name="AdvancedJavaProgramming2024" />
@@ -92,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.four.PersonDemo" />
+    <configuration name="Demonstracija" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.four.Demonstracija" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShipperDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.three.shipper.ShipperDao" />
+    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.four.PersonDemo" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.three.shipper.*" />
+          <option name="PATTERN" value="ba.smoki.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demonstracija" />
         <item itemvalue="Application.PersonDemo" />
         <item itemvalue="Application.ba.smoki.four.Demo" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.ShipperDao" />
       </list>
     </recent_temporary>
   </component>
