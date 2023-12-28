@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/CarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/Demonstracija.java" afterDir="false" />
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Streaming through elements/Spliterator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/four/PersonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/four/PersonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/four/PersonDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703015080838</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Streaming through elements/Spliterator">
+      <created>1703619946956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703619946956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +192,8 @@
     <MESSAGE value="MySQL baze&#10;&#10;- sve baze koje će nam trebati" />
     <MESSAGE value="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita" />
     <MESSAGE value="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
+    <MESSAGE value="Streaming through elements/Spliterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streaming through elements/Spliterator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
