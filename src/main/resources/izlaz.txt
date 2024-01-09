@@ -1,0 +1,1 @@
+Following a clean and modular design pattern, all these functionalities should each be given their own Java dedicated class files. Further, these class files should be clubbed together into a single directory, since they serve distinct functionalities, but ultimately have the same common purpose. This directory containing logically related Java classes would be a package.
