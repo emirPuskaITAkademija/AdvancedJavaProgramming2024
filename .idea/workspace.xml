@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Streaming through elements/Spliterator">
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Mapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/VandredniStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ulaz.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/four/Demonstracija.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/four/Demonstracija.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/three/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/three/Demo2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +70,18 @@
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\mysql\two" />
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
+      <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\ba.smoki.five.io" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Demonstracija">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.three.Demo" />
+  <component name="RunManager" selected="Application.CopyCharacters">
+    <configuration name="CopyBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.five.io.CopyBytes" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.three.*" />
+          <option name="PATTERN" value="ba.smoki.five.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.three.Demo2" />
+    <configuration name="CopyCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.five.io.CopyCharacters" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.three.*" />
+          <option name="PATTERN" value="ba.smoki.five.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.five.Main" />
+      <module name="AdvancedJavaProgramming2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.smoki.five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.smoki.four.PersonDemo" />
       <module name="AdvancedJavaProgramming2024" />
@@ -108,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ba.smoki.four.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.four.Demo" />
-      <module name="AdvancedJavaProgramming2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.smoki.four.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyCharacters" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CopyBytes" />
         <item itemvalue="Application.Demonstracija" />
         <item itemvalue="Application.PersonDemo" />
-        <item itemvalue="Application.ba.smoki.four.Demo" />
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703619946956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER">
+      <created>1703792551489</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703792551489</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER">
+      <created>1703792584981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703792584981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +227,8 @@
     <MESSAGE value="Generički tipovi, Uvod u kolekcije i JDBC&#10;&#10;- Generički tipovi&#10;   unbounded i bounded&#10;- Kolekcije&#10;   uvod sa jednim malim primjerom&#10;   &#10;- JDBC - ostvarili konekciju na bazu i procesirali rezultate upita" />
     <MESSAGE value="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
     <MESSAGE value="Streaming through elements/Spliterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Streaming through elements/Spliterator" />
+    <MESSAGE value="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER" />
+    <option name="LAST_COMMIT_MESSAGE" value="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
