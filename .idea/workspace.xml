@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Interface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Interface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Mapa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/example/VandredniStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyBytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ulaz.txt" afterDir="false" />
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/three/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/four/Demonstracija.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/four/Demonstracija.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/three/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/three/Demo2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703792584981</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;">
+      <created>1704829570333</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704829570333</updated>
+    </task>
+    <task id="LOCAL-00008" summary="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;">
+      <created>1704829600198</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704829600198</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +226,8 @@
     <MESSAGE value="Kolekcije i pristupi prilikom rada s bazom&#10;&#10;&#10;- Kolekcije&#10;- Connection pooling" />
     <MESSAGE value="Streaming through elements/Spliterator" />
     <MESSAGE value="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER" />
-    <option name="LAST_COMMIT_MESSAGE" value="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER" />
+    <MESSAGE value="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
