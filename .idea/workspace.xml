@@ -4,8 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;">
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="finance sql">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/concurrency/ConcurrencyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/concurrency/HelloThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/concurrency/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/ExampleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/NameEntryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/question/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/CopyLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/MojReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/ObjectStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/ScanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/Caffe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/CocaCola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/MilkDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/singleton/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/AuthenticationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/MojaGreska.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/NasReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/ReaderTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/UserCallbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/jaas.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/brojevi_US.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lorem_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mysql/six/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mysql/six/sve_baze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/Collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/IO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/Ljudi_Zivotinje_Masine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/Untitled.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyBytes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyBytes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyBytes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyCharacters.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,40 +73,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grupa 1/IdeaProjects/AdvancedJavaProgramming2024/src/main/resources/mysql/two&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Grupa 1/IdeaProjects/AdvancedJavaProgramming2024/src/main/resources/paint",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\paint" />
+      <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\mysql\six" />
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\mysql\two" />
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\paint" />
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\ba.smoki.five.io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyCharacters">
-    <configuration name="CopyBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.five.io.CopyBytes" />
+  <component name="RunManager" selected="Application.ConcurrencyDemo">
+    <configuration name="ConcurrencyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.concurrency.ConcurrencyDemo" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.five.io.*" />
+          <option name="PATTERN" value="ba.smoki.seven.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.five.io.CopyCharacters" />
+    <configuration name="ExampleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.method.ExampleNumber" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.five.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demonstracija" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.four.Demonstracija" />
-      <module name="AdvancedJavaProgramming2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.smoki.four.*" />
+          <option name="PATTERN" value="ba.smoki.seven.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.five.Main" />
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.Main" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.five.*" />
+          <option name="PATTERN" value="ba.smoki.seven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +143,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.four.PersonDemo" />
+    <configuration name="NameEntryController (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.method.NameEntryController" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.four.*" />
+          <option name="PATTERN" value="ba.smoki.seven.method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameEntryController (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.method.NameEntryController" />
+      <module name="AdvancedJavaProgramming2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.smoki.seven.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyCharacters" />
+        <item itemvalue="Application.ConcurrencyDemo" />
+        <item itemvalue="Application.ExampleNumber" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CopyBytes" />
-        <item itemvalue="Application.Demonstracija" />
-        <item itemvalue="Application.PersonDemo" />
+        <item itemvalue="Application.NameEntryController (3)" />
+        <item itemvalue="Application.NameEntryController (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704829600198</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finance sql">
+      <created>1705001719339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705001719339</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +278,8 @@
     <MESSAGE value="Streaming through elements/Spliterator" />
     <MESSAGE value="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER" />
     <MESSAGE value="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;" />
+    <MESSAGE value="finance sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="finance sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

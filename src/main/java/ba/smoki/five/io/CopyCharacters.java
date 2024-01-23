@@ -23,7 +23,7 @@ public class CopyCharacters {
         // slovo  key: e    value: 1
         Map<Character, Integer> map = new HashMap<>();
 
-
+        //try-with-resource
         try (FileReader in = new FileReader("src/main/resources/ulaz.txt");
              FileWriter out = new FileWriter("src/main/resources/izlaz.txt")) {
             int slovo;

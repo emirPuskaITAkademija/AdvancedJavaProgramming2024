@@ -1,6 +1,7 @@
 package ba.smoki.five.io;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -44,12 +45,12 @@ public class CopyBytes {
     public static void main(String[] args) {
         try(FileInputStream fis = new FileInputStream("src/main/resources/input.txt");
             FileOutputStream fos = new FileOutputStream("src/main/resources/output.txt")) {
-            int c;
-            while((c = fis.read()) != -1){
+            int c;// zeko pije mlijeko
+            while((c = fis.read())!= -1){
                 System.out.print((char)c);
                 fos.write(c);
             }
-        } catch (IOException e) {
+        }catch (IOException e) {
             System.err.println(e.getMessage());
         }
     }
