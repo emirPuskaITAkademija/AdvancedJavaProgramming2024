@@ -1,0 +1,5 @@
+1. termin6 predavane MySQL strana 17.
+2. termin6 strana 23
+3. termin 6 strana 30
+4. termin 6 strana 36 funckija
+5. termin 6 strana 46 trigger

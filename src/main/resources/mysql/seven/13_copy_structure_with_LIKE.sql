@@ -1,0 +1,1 @@
+CREATE TABLE orders_archived2 LIKE orders;

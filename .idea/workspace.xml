@@ -4,49 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="finance sql">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/concurrency/ConcurrencyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/concurrency/HelloThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/concurrency/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/ExampleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/NameEntryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/method/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/seven/question/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/CopyLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/MojReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/ObjectStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/io/ScanDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/Caffe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/CocaCola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/MilkDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/decorator/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/singleton/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/pattern/singleton/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/AuthenticationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/MojaGreska.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/NasReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/ReaderTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/UserCallbackHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/six/question/jaas.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/brojevi_US.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lorem_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mysql/six/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mysql/six/sve_baze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/Collection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/IO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/Ljudi_Zivotinje_Masine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/paint/Untitled.png" afterDir="false" />
+    <list default="true" id="8401acd9-45f8-4128-a327-ba8af717b5fc" name="Changes" comment="Zadnje predavanje AJP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/ComputationalIntensive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/ComputationalIntensive2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/RadnikThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/RunnableRadnik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/Sample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/Sample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/nadoknada/singleton/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mysql/spisak.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyBytes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/five/io/CopyCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyBytes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyBytes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/smoki/five/io/CopyCharacters.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +58,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -102,14 +74,17 @@
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources" />
       <recent name="C:\Users\Grupa 1\IdeaProjects\AdvancedJavaProgramming2024\src\main\resources\ba.smoki.five.io" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ba.smoki.nadoknada" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ConcurrencyDemo">
-    <configuration name="ConcurrencyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.concurrency.ConcurrencyDemo" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="ComputationalIntensive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.nadoknada.ComputationalIntensive" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.seven.concurrency.*" />
+          <option name="PATTERN" value="ba.smoki.nadoknada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.method.ExampleNumber" />
+    <configuration name="ComputationalIntensive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.nadoknada.ComputationalIntensive2" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.seven.method.*" />
+          <option name="PATTERN" value="ba.smoki.nadoknada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.Main" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.nadoknada.singleton.Demo" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.seven.*" />
+          <option name="PATTERN" value="ba.smoki.nadoknada.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameEntryController (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.method.NameEntryController" />
+    <configuration name="Sample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.nadoknada.Sample2" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.seven.method.*" />
+          <option name="PATTERN" value="ba.smoki.nadoknada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameEntryController (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.smoki.seven.method.NameEntryController" />
+    <configuration name="Sample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.smoki.nadoknada.Sample3" />
       <module name="AdvancedJavaProgramming2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ba.smoki.seven.method.*" />
+          <option name="PATTERN" value="ba.smoki.nadoknada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcurrencyDemo" />
-        <item itemvalue="Application.ExampleNumber" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NameEntryController (3)" />
-        <item itemvalue="Application.NameEntryController (2)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.ComputationalIntensive2" />
+        <item itemvalue="Application.ComputationalIntensive" />
+        <item itemvalue="Application.Sample3" />
+        <item itemvalue="Application.Sample2" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705001719339</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Zadnje predavanje AJP">
+      <created>1706039057270</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706039057270</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +261,8 @@
     <MESSAGE value="JOIN data from multiple tables&#10;&#10;- INNER &#10;- OUTER" />
     <MESSAGE value="IO Byte/Character Map&lt;K,V&gt; Comparator&lt;K,V&gt;" />
     <MESSAGE value="finance sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="finance sql" />
+    <MESSAGE value="Zadnje predavanje AJP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadnje predavanje AJP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

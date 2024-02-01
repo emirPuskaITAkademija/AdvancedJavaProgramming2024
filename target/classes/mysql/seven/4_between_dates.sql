@@ -1,0 +1,5 @@
+-- 01.01.2017  -> 01.12.2017
+SELECT *
+FROM orders
+WHERE order_date BETWEEN '2017-01-22' AND '2017-12-01'
+ORDER BY order_date;
